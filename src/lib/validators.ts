@@ -45,6 +45,7 @@ export class QueryParameterExistsRule implements ValidationRule {
 }
 
 export class ValidHttpMethodRule implements ValidationRule {
+    //TODO(firat.eren) convert methods param type to String[]
     public  validate(req: any, methods: string): void {
         if (!req) throw new Error(invalid_http_method);
         if (!req.method) throw new Error(invalid_http_method);

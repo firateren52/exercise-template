@@ -8,3 +8,7 @@
 
 
 Once you have done your changes please create a Pull Request (Do not push changes to master) with your branch into master.
+
+# Usage
+###build: npm install
+###run local: sls offline

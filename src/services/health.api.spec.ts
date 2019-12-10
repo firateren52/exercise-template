@@ -24,6 +24,7 @@ describe("*********** Unit Tests for Health API ***********", () => {
                 result = resultData;
                 console.log(resultData);
             });
+            //TODO(firat.eren) add assert statements for result object like status =='UP'
             expect(result).toBeDefined();
         });
         describe("When healcheck return error", () => {
