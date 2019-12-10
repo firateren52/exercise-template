@@ -13,3 +13,5 @@ Once you have done your changes please create a Pull Request (Do not push change
 build: npm install
 <br>
 run local: sls offline
+<br>
+//TODO(firat.eren) add other missing commands like test
